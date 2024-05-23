@@ -8,13 +8,13 @@ body {
     height: 100vh;
 }
 
-#formulario {
+.formulario {
     width: 400px;
-    margin: 0 auto;
+    margin-left: 3px;
     padding: 20px;
-    border: 2px solid #5c5e5f;
-    border-radius: 10px;
-    background-color: #fff;
+    border-radius: 10px;  
+    justify-content: center; 
+    align-items: center;
 }
 
 h2 {
@@ -23,10 +23,6 @@ h2 {
     text-align: center;
     padding: 10px;
     margin-top: 0;
-}
-
-label {
-    font-weight: bold;
 }
 
 input[type="text"],
@@ -38,28 +34,27 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+    width: 450px;
+    
 }
 
 textarea {
-    resize: vertical;
+    resize: none;
+    width: 450px;
+    height: 240px;
 }
 
 input[type="submit"] {
-    background-color: #5c5e5f;
-    color: #fff;
+    background-color: #a5a5a5;
+    color: #000000;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    background-color: #5c5e5f;
-}
-
 .borda{
-    width: 600px;
-    height: 420px;
+    width: 500px;
+    height: 620px;
     border: 6px solid #5c5e5f;
     background-color: #f2f2f2;
 }

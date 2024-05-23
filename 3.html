@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 03</title>
+    <link rel="stylesheet" href="3.css">
+</head>
+<body>
+    <hr>
+    <div class="borda">
+    <h2>Contato</h2>
+    <form action="/enviar.php" method="POST">
+        <label for="nome">
+        <input type="text" id="nome" name="nome" required placeholder="informe seu nome"><br></label><br>
+
+        <label for="email">
+        <input type="email" id="email" name="email" required placeholder="informe seu email"><br></label><br>
+
+        <label for="assunto">
+        <textarea id="assunto" name="assunto" rows="4" cols="50" required placeholder="informe o assunto" class="assunto"></textarea><br>
+        </label><br>
+
+        <label for="mensagem">
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required placeholder="deixe sua mensagem" class="mensagem"></textarea><br></label><br>
+
+        <input type="submit" value="Enviar">
+    </div>
+</body>
+</html>
